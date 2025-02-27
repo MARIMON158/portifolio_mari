@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--fim googlefonts-->
+    <!--bootstrep-icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- fim bootstrepicons-->
+    <link rel="stylesheet" href="stylestyle.css">
+    <title>Portifolio Mari</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+
+            <nav class="menu desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="topo-do-site">
+
+            <div class="interface">
+
+                <div class="flex">
+
+                    <div class="txt-topo-site">
+                        <h1> Olá! Me chamo Mariana, sou desenvolvedora frontend em constante aprendizado e apaixonada
+                            por criar experiências web.</h1>
+                        <p>Aqui você encontrará alguns dos meus projetos, que refletem o meu empenho em aprender e
+                            aplicar as melhores práticas de design e desenvolvimento. Se você busca inovação, design
+                            intuitivo e soluções eficientes, está no lugar certo. Vamos conversar sobre como posso
+                            ajudar a dar vida ao seu projeto enquanto continuo a crescer e evoluir como profissional!
+                        </p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="images/img_portifolio.png" alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section class="habilidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES</span></h2>
+                <div class="flex">
+                    <div class="habilidades-box">
+                        <i class="bi bi-lightbulb"></i>
+                        <h3>Resolução de problemas</h3>
+                        <p>Tenho habilidade na resolução de problemas, atuando de forma ágil e eficaz para garantir a
+                            eficiência das atividades da empresa.</p>
+                    </div>
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-people-fill"></i>
+                        <h3>Trabalho em equipe</h3>
+                        <p>Tenho habilidade em trabalho em equipe, colaborando para o atingimento de metas de forma
+                            integrada e sem comprometer a harmonia do grupo, sempre promovendo um ambiente positivo e
+                            produtivo.</p>
+                    </div>
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-clock-fill"></i>
+                        <h3>Otimização de tempo</h3>
+                        <p>Possuo habilidades em otimização de tempo, priorizando tarefas e processos para maximizar a
+                            eficiência e alcançar resultados de forma ágil.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/img2_portifolio.jpg" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU MARIANA GONÇALVES</span></h2>
+                        <p>Sou uma estudante em formação na área de tecnologia, cursando o 3º semestre de
+                            Análise e Desenvolvimento de Sistemas. Busco uma oportunidade para aplicar e
+                            expandir meus conhecimentos, contribuindo de forma estratégica para o crescimento
+                            da empresa. Atualmente, estou aprimorando minhas habilidades por meio de cursos
+                            complementares e experiências práticas.</p>
+                            <div class="bnt-social">
+                             <a href="#"><button><i class="bi bi-github"></i></button></a>
+                             <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            
+
+                            </div>
+                    </div>
+
+                    <div class="img-sobre">
+                    </div>
+
+                </div>
+            </div>
+
+        </section> <!--fim sobre-->
+
+        <section class="portifolio">
+            <div class="interface">
+                <h2>MEU <span>PORTIFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port">
+                        <img src="images/img3_portifolio.png" alt="">
+                        <img src="images/img3_portifolio.png" alt="">
+
+                    </div>
+
+                </div>
+
+
+            </div><!--fim interface-->
+
+
+        </section>
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="enviar.php" method="post" >
+                    <input type="text" name="nome_completo" id="" placeholder="Nome completo" required>
+                    <input type="text" name="email" id="" placeholder="E-mail" required>
+                    <input type="text" name="celular" id="" placeholder="Celular">
+                    <textarea name="msg" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="bnt-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

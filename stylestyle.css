@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", serif;
+    font-weight: 90;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #000;
+    height: 100vh;
+
+
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1.0s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 70px 4%;
+    margin-bottom: 40px;
+
+}
+
+h2.titulo span {
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px rgb(150, 2, 255);
+    transform: scale(1.05);
+}
+/* ESTILO DO CABEALHO*/
+header {
+    padding: 15px 4%;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(27, 1, 27);
+    width: 100%;
+
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(196, 193, 193);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.07);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+section.topo-do-site .interface {
+    padding-top: 20px;
+}
+
+
+/*topo do site*/
+section.topo-do-site {
+    padding: 129px 4%;
+
+}
+
+.img-topo-site {
+    padding: 90px 0px;
+}
+
+.section,
+topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 200px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.topo-do-site p {
+    color: #fff;
+    font-size: 15px;
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutui 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutui {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/* estilo habilidades*/
+
+section.habilidades {
+    padding: 100px 4%;
+
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+.habilidades-box {
+    padding: 40px;
+    border-radius: 20px;
+    transition: .2s;
+
+
+}
+
+.habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #43158088;
+}
+
+
+.habilidades-box i {
+    color: blueviolet;
+    font-size: 40px;
+
+
+}
+
+.habilidades-box h3 {
+    color: #fff;
+    font-weight: 500;
+    padding: 30px 4%;
+    font-size: 25px;
+    margin-top: 40px 4%;
+
+}
+
+.habilidades-box p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 28px;
+}
+
+.img-sobre img {
+    border-radius: 25px;
+    padding: 40px;
+    width: 400px;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre {
+    color: #fff;
+
+}
+.sobre .txt-sobre h2{
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.sobre .txt-sobre h2 span{
+color:blueviolet ;
+display: block;
+font-weight: 500;
+}
+.sobre .txt-sobre p{
+    text-align: justify;
+}
+.sobre .txt-sobre .bnt-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0;
+    color: rgb(247, 247, 247);
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0px 5px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    transition: .2s;
+}
+
+/*PORTIFOLIO*/
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #a5a0a00e;
+
+}
+
+section.portifolio .flex{
+justify-content: space-around;
+}
+
+section.portifolio h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  
+
+}
+section.portifolio h2 span{
+    color: blueviolet;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+section.portifolio img{
+    align-items: center;
+    padding: 40px;
+    width: 400px;
+    
+}
+
+section.formulario{
+    padding: 80px 4%;
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(42, 31, 105, 0.178);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
